@@ -1,5 +1,4 @@
 import React from 'react';
-import TopHeader from './Headers/TopHeader';
 import Header from './Headers/Header';
 import Home from './Pages/Home';
 import Category from './Pages/PageComponenet/Category';
@@ -15,7 +14,6 @@ import Footer from './Pages/PageComponenet/Footer';
 const App = () => {
   return (
     <div>
-      <TopHeader/>
       <Header/>
       <Home/>
       <Category/>
