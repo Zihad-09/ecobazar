@@ -1,16 +1,28 @@
-# React + Vite
+# 🌿 EcoBazar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EcoBazar is a modern e-commerce web application built with **React** and styled using **Tailwind CSS** and **daisyUI**. It features reusable UI components, smooth product carousels, and a clean, responsive design — perfect for showcasing products in an eco-friendly online store.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 [View EcoBazar Live](https://jolly-alfajores-1dedfe.netlify.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
+- 🛒 **Product Listings** – Organized into categories like Trending, Top Rated, and Top Selling  
+- 🎨 **Modern UI** – Styled with Tailwind CSS and daisyUI for a clean, responsive layout  
+- 🖼️ **Image Carousel** – Implemented with Swiper for smooth product sliders  
+- 🔍 **Reusable Components** – Built with React for modularity and scalability  
+- 🎭 **Icons** – Integrated with React Icons for a polished look  
+- 📱 **Responsive Design** – Works seamlessly across desktop and mobile  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React** – Frontend framework  
+- **Tailwind CSS** – Utility-first CSS framework  
+- **daisyUI** – Tailwind component library  
+- **React Icons** – Icon library  
+- **Swiper (npm carousel)** – Product carousel/slider  
+- **Netlify** – Deployment and hosting  
