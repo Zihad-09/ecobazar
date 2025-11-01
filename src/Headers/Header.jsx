@@ -9,7 +9,7 @@ import { CiShoppingCart } from "react-icons/ci";
 const Header = () => {
   return (
     <div>
-      <div >
+      <div className='' >
         <div className='flex justify-between px-10 bg-[#262626] py-3'>
           <img className='rounded h-9' src={mainlogo} alt="" />
           <div className='btn bg-[#82b440]'>Buy Now</div>

@@ -1,7 +1,7 @@
 
 import Screenshot1 from '../../../src/assets/logo/Screenshot1.png'
 import download1 from '../../../src/assets/logo/download1.png'
-// import download from '../../assets/logo/download.webp'
+
 import Downloadbb from '../../../src/assets/logo/Downloadbb.png'
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCallOutline } from "react-icons/io5";
@@ -57,7 +57,7 @@ const Footer = () => {
                     <p>Fruits</p>
                 </div>
 
-                 <div className='font-medium mb-10'>
+                 <div className='font-medium mb-8'>
                   <div  className='text-xl font-semibold'><h1>Contact</h1></div>
                     <p className='border mt-5 mb-5'></p>
                     <p className='flex items-center gap-2'> <FaLocationDot /> 2435 Boarddus Maple Court, <br /> Madisonville ky 4783,USA</p>
@@ -68,9 +68,9 @@ const Footer = () => {
 
            </div>
 
-                <div> 
-                    <p>Copyright by envatomarket,All right reserved.Powered by Grabit</p>
-                    <p><img src={Downloadbb} alt="" /></p>
+                <div className='flex justify-between items-center font-medium bg-gray-200 px-36'> 
+                    <p >Copyright by envatomarket,All right reserved.Powered by Grabit</p>
+                    <img className='h-20 w-50' src={Downloadbb} alt="" />
                 </div>
 
         </div>
